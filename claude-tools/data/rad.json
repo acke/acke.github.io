@@ -147,8 +147,8 @@
     },
     "2026-11-16": {
      "claude-sonnet-5-5": 2.4212,
-     "claude-haiku-5-5": 0.5235,
-     "claude-opus-5-5": 3.4461
+     "claude-haiku-5-5": 0.5331,
+     "claude-opus-5-5": 3.5906
     }
    },
    "unpriced_tokens": {}
@@ -156,7 +156,7 @@
   "billed": {},
   "notes": []
  },
- "generated": "2026-11-16 19:01",
+ "generated": "2026-11-16 19:16",
  "jobs": [
   {
    "label": "claude-blog-harvest",
@@ -216,7 +216,7 @@
    "cache_creation_30d": 539510,
    "errors_7d": 0,
    "last_run_at": "2026-11-16 07:15:05",
-   "last_run_ago": "11h ago",
+   "last_run_ago": "12h ago",
    "last_run_exit": 0,
    "in_progress": false,
    "daily_cost": {
@@ -251,7 +251,7 @@
    "cache_creation_30d": 1428857,
    "errors_7d": 0,
    "last_run_at": "2026-11-16 18:05:05",
-   "last_run_ago": "56m ago",
+   "last_run_ago": "1h ago",
    "last_run_exit": 0,
    "in_progress": false,
    "daily_cost": {
@@ -290,7 +290,7 @@
    "cache_creation_30d": 1222620,
    "errors_7d": 0,
    "last_run_at": "2026-11-16 18:35:05",
-   "last_run_ago": "26m ago",
+   "last_run_ago": "41m ago",
    "last_run_exit": 0,
    "in_progress": false,
    "daily_cost": {
@@ -318,15 +318,15 @@
    "total_runs": 2280,
    "runs_24h": 0,
    "runs_7d": 0,
-   "runs_30d": 411,
+   "runs_30d": 410,
    "cost_7d": 0,
-   "cost_30d": 77.8264912,
+   "cost_30d": 77.6428502,
    "cost_all": 606.6838249,
    "avg_cost_per_run": 0.2660893968859649,
-   "input_tokens_30d": 3424,
-   "output_tokens_30d": 613638,
-   "cache_read_30d": 64444296,
-   "cache_creation_30d": 14698601,
+   "input_tokens_30d": 3416,
+   "output_tokens_30d": 612065,
+   "cache_read_30d": 64296541,
+   "cache_creation_30d": 14664015,
    "errors_7d": 0,
    "last_run_at": "2026-11-02 20:56:00",
    "last_run_ago": "13d ago",
@@ -450,19 +450,19 @@
    "runs_24h": 24,
    "runs_7d": 168,
    "runs_30d": 388,
-   "cost_7d": 4.859985,
-   "cost_30d": 32.28310874,
-   "cost_all": 236.52095364000002,
-   "avg_cost_per_run": 0.2554221961555076,
-   "input_tokens_30d": 20168,
-   "output_tokens_30d": 3540426,
-   "cache_read_30d": 382401504,
-   "cache_creation_30d": 20030135,
+   "cost_7d": 4.88770857,
+   "cost_30d": 32.31083231,
+   "cost_all": 236.54867721,
+   "avg_cost_per_run": 0.2554521352159827,
+   "input_tokens_30d": 20202,
+   "output_tokens_30d": 3553526,
+   "cache_read_30d": 383623101,
+   "cache_creation_30d": 20074906,
    "errors_7d": 0,
    "last_run_at": "2026-11-16 19:00:05",
-   "last_run_ago": "1m ago",
-   "last_run_exit": null,
-   "in_progress": true,
+   "last_run_ago": "16m ago",
+   "last_run_exit": 0,
+   "in_progress": false,
    "daily_cost": {
     "2026-11-02": 0.17029568000000003,
     "2026-11-03": 0.3016228400000001,
@@ -478,7 +478,7 @@
     "2026-11-13": 0.6251511300000001,
     "2026-11-14": 0.65794191,
     "2026-11-15": 0.81040676,
-    "2026-11-16": 0.46400945999999993
+    "2026-11-16": 0.4917330299999999
    }
   },
   {
@@ -486,21 +486,21 @@
    "tool_dir": "wow-loop",
    "schedule": "hourly at :05",
    "emits_usage": true,
-   "total_runs": 998,
+   "total_runs": 999,
    "runs_24h": 24,
    "runs_7d": 168,
    "runs_30d": 456,
-   "cost_7d": 34.26491,
-   "cost_30d": 87.4416922,
-   "cost_all": 174.7385279,
-   "avg_cost_per_run": 0.17508870531062126,
-   "input_tokens_30d": 13008,
-   "output_tokens_30d": 312495,
-   "cache_read_30d": 57505956,
-   "cache_creation_30d": 8709890,
+   "cost_7d": 34.1086094,
+   "cost_30d": 87.524085,
+   "cost_all": 174.8830715,
+   "avg_cost_per_run": 0.17505812962962963,
+   "input_tokens_30d": 13010,
+   "output_tokens_30d": 312618,
+   "cache_read_30d": 57538260,
+   "cache_creation_30d": 8719073,
    "errors_7d": 0,
-   "last_run_at": "2026-11-16 18:05:05",
-   "last_run_ago": "56m ago",
+   "last_run_at": "2026-11-16 19:05:04",
+   "last_run_ago": "11m ago",
    "last_run_exit": 0,
    "in_progress": false,
    "daily_cost": {
@@ -518,7 +518,7 @@
     "2026-11-13": 6.277202600000001,
     "2026-11-14": 5.1735368,
     "2026-11-15": 5.0068938,
-    "2026-11-16": 3.4460637999999992
+    "2026-11-16": 3.5906073999999992
    }
   }
  ],
