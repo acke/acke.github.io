@@ -156,7 +156,7 @@
   "billed": {},
   "notes": []
  },
- "generated": "2026-11-16 06:10",
+ "generated": "2026-11-16 06:25",
  "jobs": [
   {
    "label": "claude-blog-harvest",
@@ -237,9 +237,9 @@
    "emits_usage": true,
    "total_runs": 318,
    "runs_24h": 2,
-   "runs_7d": 15,
+   "runs_7d": 14,
    "runs_30d": 39,
-   "cost_7d": 0.1756809,
+   "cost_7d": 0.16983869000000001,
    "cost_30d": 1.3863184,
    "cost_all": 44.58103775,
    "avg_cost_per_run": 0.1401919426100629,
@@ -249,7 +249,7 @@
    "cache_creation_30d": 1401348,
    "errors_7d": 0,
    "last_run_at": "2026-11-16 06:05:05",
-   "last_run_ago": "5m ago",
+   "last_run_ago": "20m ago",
    "last_run_exit": 0,
    "in_progress": false,
    "daily_cost": {
@@ -455,7 +455,7 @@
    "cache_creation_30d": 20111683,
    "errors_7d": 0,
    "last_run_at": "2026-11-16 06:00:05",
-   "last_run_ago": "10m ago",
+   "last_run_ago": "25m ago",
    "last_run_exit": 0,
    "in_progress": false,
    "daily_cost": {
@@ -483,9 +483,9 @@
    "emits_usage": true,
    "total_runs": 986,
    "runs_24h": 24,
-   "runs_7d": 169,
+   "runs_7d": 168,
    "runs_30d": 457,
-   "cost_7d": 34.3243448,
+   "cost_7d": 34.2602786,
    "cost_30d": 87.7686204,
    "cost_all": 172.8279693,
    "avg_cost_per_run": 0.17528191612576066,
@@ -495,7 +495,7 @@
    "cache_creation_30d": 8727880,
    "errors_7d": 0,
    "last_run_at": "2026-11-16 06:05:05",
-   "last_run_ago": "5m ago",
+   "last_run_ago": "20m ago",
    "last_run_exit": 0,
    "in_progress": false,
    "daily_cost": {
