@@ -149,7 +149,7 @@
      "claude-opus-5-5": 4.4142
     },
     "2026-11-17": {
-     "claude-sonnet-5-5": 5.3525,
+     "claude-sonnet-5-5": 5.4537,
      "claude-haiku-5-5": 0.4091,
      "claude-opus-5-5": 2.7201
     }
@@ -159,7 +159,7 @@
   "billed": {},
   "notes": []
  },
- "generated": "2026-11-17 14:08",
+ "generated": "2026-11-17 14:23",
  "jobs": [
   {
    "label": "claude-blog-harvest",
@@ -219,7 +219,7 @@
    "cache_creation_30d": 595980,
    "errors_7d": 0,
    "last_run_at": "2026-11-17 07:15:05",
-   "last_run_ago": "6h ago",
+   "last_run_ago": "7h ago",
    "last_run_exit": 0,
    "in_progress": false,
    "daily_cost": {
@@ -323,15 +323,15 @@
    "total_runs": 2280,
    "runs_24h": 0,
    "runs_7d": 0,
-   "runs_30d": 338,
+   "runs_30d": 337,
    "cost_7d": 0,
-   "cost_30d": 64.1267894,
+   "cost_30d": 63.9015668,
    "cost_all": 606.6838249,
    "avg_cost_per_run": 0.2660893968859649,
-   "input_tokens_30d": 2834,
-   "output_tokens_30d": 502475,
-   "cache_read_30d": 53437617,
-   "cache_creation_30d": 12102212,
+   "input_tokens_30d": 2822,
+   "output_tokens_30d": 500387,
+   "cache_read_30d": 53190984,
+   "cache_creation_30d": 12063464,
    "errors_7d": 0,
    "last_run_at": "2026-11-02 20:56:00",
    "last_run_ago": "14d ago",
@@ -464,11 +464,11 @@
    "cache_creation_30d": 20168674,
    "errors_7d": 0,
    "last_run_at": "2026-11-17 14:00:04",
-   "last_run_ago": "8m ago",
+   "last_run_ago": "23m ago",
    "last_run_exit": 0,
    "in_progress": false,
    "daily_cost": {
-    "2026-11-03": 0.12991615000000004,
+    "2026-11-03": 0.09003840000000003,
     "2026-11-04": 0.33492123,
     "2026-11-05": 0.30168180000000006,
     "2026-11-06": 0.7389903400000001,
@@ -504,11 +504,11 @@
    "cache_creation_30d": 8878791,
    "errors_7d": 0,
    "last_run_at": "2026-11-17 14:05:05",
-   "last_run_ago": "3m ago",
+   "last_run_ago": "18m ago",
    "last_run_exit": 0,
    "in_progress": false,
    "daily_cost": {
-    "2026-11-03": 1.6813532,
+    "2026-11-03": 1.3114194,
     "2026-11-04": 3.773501800000001,
     "2026-11-05": 3.6491213999999994,
     "2026-11-06": 6.8049202,
