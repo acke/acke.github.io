@@ -151,9 +151,9 @@
      "claude-opus-5-5": 4.4142
     },
     "2026-11-17": {
-     "claude-sonnet-5-5": 0.3017,
+     "claude-sonnet-5-5": 0.5867,
      "claude-haiku-5-5": 0.228,
-     "claude-opus-5-5": 1.3914
+     "claude-opus-5-5": 1.4328
     }
    },
    "unpriced_tokens": {}
@@ -161,7 +161,7 @@
   "billed": {},
   "notes": []
  },
- "generated": "2026-11-17 07:05",
+ "generated": "2026-11-17 07:20",
  "jobs": [
   {
    "label": "claude-blog-harvest",
@@ -207,25 +207,24 @@
    "tool_dir": "dagskoll",
    "schedule": "weekdays 07:15",
    "emits_usage": true,
-   "total_runs": 32,
+   "total_runs": 33,
    "runs_24h": 1,
    "runs_7d": 5,
-   "runs_30d": 15,
-   "cost_7d": 1.0510404,
-   "cost_30d": 2.7518398,
-   "cost_all": 9.1351944,
-   "avg_cost_per_run": 0.285474825,
-   "input_tokens_30d": 140,
-   "output_tokens_30d": 22793,
-   "cache_read_30d": 2774235,
-   "cache_creation_30d": 539510,
+   "runs_30d": 16,
+   "cost_7d": 1.1289183,
+   "cost_30d": 3.0186326,
+   "cost_all": 9.4019872,
+   "avg_cost_per_run": 0.284908703030303,
+   "input_tokens_30d": 148,
+   "output_tokens_30d": 25069,
+   "cache_read_30d": 2955603,
+   "cache_creation_30d": 595980,
    "errors_7d": 0,
-   "last_run_at": "2026-11-16 07:15:05",
-   "last_run_ago": "23h ago",
+   "last_run_at": "2026-11-17 07:15:05",
+   "last_run_ago": "5m ago",
    "last_run_exit": 0,
    "in_progress": false,
    "daily_cost": {
-    "2026-11-03": 0.2079472,
     "2026-11-04": 0.0552245,
     "2026-11-05": 0.0928006,
     "2026-11-06": 0.1775964,
@@ -234,7 +233,8 @@
     "2026-11-11": 0.2260257,
     "2026-11-12": 0.1891354,
     "2026-11-13": 0.1848854,
-    "2026-11-16": 0.26207900000000006
+    "2026-11-16": 0.26207900000000006,
+    "2026-11-17": 0.26679280000000005
    }
   },
   {
@@ -296,7 +296,7 @@
    "cache_creation_30d": 1251338,
    "errors_7d": 0,
    "last_run_at": "2026-11-17 06:35:05",
-   "last_run_ago": "30m ago",
+   "last_run_ago": "45m ago",
    "last_run_exit": 0,
    "in_progress": false,
    "daily_cost": {
@@ -325,15 +325,15 @@
    "total_runs": 2280,
    "runs_24h": 0,
    "runs_7d": 0,
-   "runs_30d": 365,
+   "runs_30d": 364,
    "cost_7d": 0,
-   "cost_30d": 69.1760626,
+   "cost_30d": 68.9494846,
    "cost_all": 606.6838249,
    "avg_cost_per_run": 0.2660893968859649,
-   "input_tokens_30d": 3054,
-   "output_tokens_30d": 544169,
-   "cache_read_30d": 57546643,
-   "cache_creation_30d": 13054734,
+   "input_tokens_30d": 3048,
+   "output_tokens_30d": 542830,
+   "cache_read_30d": 57431263,
+   "cache_creation_30d": 13007209,
    "errors_7d": 0,
    "last_run_at": "2026-11-02 20:56:00",
    "last_run_ago": "14d ago",
@@ -465,7 +465,7 @@
    "cache_creation_30d": 20110644,
    "errors_7d": 0,
    "last_run_at": "2026-11-17 07:00:02",
-   "last_run_ago": "5m ago",
+   "last_run_ago": "20m ago",
    "last_run_exit": 0,
    "in_progress": false,
    "daily_cost": {
@@ -495,21 +495,21 @@
    "runs_24h": 24,
    "runs_7d": 168,
    "runs_30d": 456,
-   "cost_7d": 33.6821116,
-   "cost_30d": 88.4998266,
-   "cost_all": 176.9956757,
-   "avg_cost_per_run": 0.17506990672601383,
-   "input_tokens_30d": 13030,
-   "output_tokens_30d": 314281,
-   "cache_read_30d": 57892748,
-   "cache_creation_30d": 8828011,
+   "cost_7d": 33.8258722,
+   "cost_30d": 88.6435872,
+   "cost_all": 177.1394363,
+   "avg_cost_per_run": 0.175212103165183,
+   "input_tokens_30d": 13038,
+   "output_tokens_30d": 314901,
+   "cache_read_30d": 58039671,
+   "cache_creation_30d": 8840754,
    "errors_7d": 0,
    "last_run_at": "2026-11-17 07:05:05",
-   "last_run_ago": "0m ago",
-   "last_run_exit": null,
-   "in_progress": true,
+   "last_run_ago": "15m ago",
+   "last_run_exit": 0,
+   "in_progress": false,
    "daily_cost": {
-    "2026-11-03": 2.6733754,
+    "2026-11-03": 2.5978896,
     "2026-11-04": 3.773501800000001,
     "2026-11-05": 3.6491213999999994,
     "2026-11-06": 6.8049202,
@@ -523,7 +523,7 @@
     "2026-11-14": 5.1735368,
     "2026-11-15": 5.0068938,
     "2026-11-16": 4.4141987999999985,
-    "2026-11-17": 1.2890128
+    "2026-11-17": 1.4327734
    }
   }
  ],
