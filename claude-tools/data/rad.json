@@ -23,7 +23,7 @@
     },
     "2026-10-22": {
      "claude-haiku-4-5-20251001": 0.3765,
-     "claude-sonnet-5-5": 1.9547,
+     "claude-sonnet-5-5": 1.214,
      "claude-opus-5-5": 203.6819,
      "claude-fable-5-1": 126.4791
     },
@@ -148,7 +148,7 @@
   "billed": {},
   "notes": []
  },
- "generated": "2026-11-22 00:40",
+ "generated": "2026-11-22 00:55",
  "jobs": [
   {
    "label": "claude-blog-harvest",
@@ -450,7 +450,7 @@
    "cache_creation_30d": 20722851,
    "errors_7d": 1,
    "last_run_at": "2026-11-22 00:00:01",
-   "last_run_ago": "40m ago",
+   "last_run_ago": "55m ago",
    "last_run_exit": 0,
    "in_progress": false,
    "daily_cost": {
@@ -490,7 +490,7 @@
    "cache_creation_30d": 10128448,
    "errors_7d": 1,
    "last_run_at": "2026-11-22 00:05:00",
-   "last_run_ago": "35m ago",
+   "last_run_ago": "50m ago",
    "last_run_exit": 0,
    "in_progress": false,
    "daily_cost": {
