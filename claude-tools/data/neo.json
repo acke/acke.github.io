@@ -73,7 +73,8 @@
      "claude-opus-5-5": 8.0649
     },
     "2026-11-21": {
-     "claude-sonnet-5-5": 22.4864
+     "claude-sonnet-5-5": 25.242,
+     "claude-haiku-5-5": 0.0165
     }
    },
    "unpriced_tokens": {
@@ -123,7 +124,7 @@
    "API key: no key (keychain item claude-admin-key)"
   ]
  },
- "generated": "2026-11-21 22:53",
+ "generated": "2026-11-21 23:09",
  "jobs": [],
  "top_runs": []
 }
