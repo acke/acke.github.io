@@ -73,11 +73,49 @@
      "claude-opus-5-5": 8.0649
     },
     "2026-11-21": {
-     "claude-sonnet-5-5": 20.464
+     "claude-sonnet-5-5": 22.4864
     }
    },
    "unpriced_tokens": {
     "accounts/fireworks/models/glm-5p3": 18384398
+   },
+   "skills": {
+    "gbuild:run": {
+     "2026-11-16": [
+      2,
+      0.3698
+     ]
+    },
+    "gbuild:review": {
+     "2026-11-16": [
+      2,
+      0.0655
+     ]
+    },
+    "beagle-go:review-verification-protocol": {
+     "2026-11-20": [
+      1,
+      0.0155
+     ]
+    },
+    "reflect": {
+     "2026-11-15": [
+      1,
+      0.0489
+     ]
+    },
+    "writing-great-skills": {
+     "2026-11-10": [
+      1,
+      0.0714
+     ]
+    },
+    "malmo-lunch:lunch": {
+     "2026-11-10": [
+      2,
+      0.1539
+     ]
+    }
    }
   },
   "billed": {},
@@ -85,7 +123,7 @@
    "API key: no key (keychain item claude-admin-key)"
   ]
  },
- "generated": "2026-11-21 22:45",
+ "generated": "2026-11-21 22:53",
  "jobs": [],
  "top_runs": []
 }
