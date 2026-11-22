@@ -145,7 +145,7 @@
   "billed": {},
   "notes": []
  },
- "generated": "2026-11-22 18:16",
+ "generated": "2026-11-22 18:31",
  "jobs": [
   {
    "label": "claude-blog-harvest",
@@ -166,7 +166,7 @@
    "cache_creation_30d": 1410845,
    "errors_7d": 1,
    "last_run_at": "2026-11-22 09:30:02",
-   "last_run_ago": "8h ago",
+   "last_run_ago": "9h ago",
    "last_run_exit": 0,
    "in_progress": false,
    "daily_cost": {
@@ -227,7 +227,7 @@
    "schedule": "multiple times (see plist)",
    "emits_usage": true,
    "total_runs": 331,
-   "runs_24h": 3,
+   "runs_24h": 2,
    "runs_7d": 14,
    "runs_30d": 40,
    "cost_7d": 0.16881049,
@@ -240,7 +240,7 @@
    "cache_creation_30d": 1629927,
    "errors_7d": 0,
    "last_run_at": "2026-11-22 18:05:05",
-   "last_run_ago": "11m ago",
+   "last_run_ago": "26m ago",
    "last_run_exit": 0,
    "in_progress": false,
    "daily_cost": {
@@ -343,7 +343,7 @@
    "cache_creation_30d": 2854617,
    "errors_7d": 0,
    "last_run_at": "2026-11-22 18:00:01",
-   "last_run_ago": "16m ago",
+   "last_run_ago": "31m ago",
    "last_run_exit": 0,
    "in_progress": false,
    "daily_cost": {
@@ -421,7 +421,7 @@
    "cache_creation_30d": 252772,
    "errors_7d": 0,
    "last_run_at": "2026-11-22 18:00:01",
-   "last_run_ago": "16m ago",
+   "last_run_ago": "31m ago",
    "last_run_exit": 0,
    "in_progress": false,
    "daily_cost": {
@@ -448,7 +448,7 @@
    "cache_creation_30d": 20771226,
    "errors_7d": 1,
    "last_run_at": "2026-11-22 18:00:01",
-   "last_run_ago": "16m ago",
+   "last_run_ago": "31m ago",
    "last_run_exit": 0,
    "in_progress": false,
    "daily_cost": {
@@ -475,7 +475,7 @@
    "schedule": "hourly at :05",
    "emits_usage": true,
    "total_runs": 1127,
-   "runs_24h": 25,
+   "runs_24h": 24,
    "runs_7d": 153,
    "runs_30d": 450,
    "cost_7d": 41.419479315,
@@ -488,7 +488,7 @@
    "cache_creation_30d": 10198333,
    "errors_7d": 1,
    "last_run_at": "2026-11-22 18:05:05",
-   "last_run_ago": "11m ago",
+   "last_run_ago": "26m ago",
    "last_run_exit": 0,
    "in_progress": false,
    "daily_cost": {
