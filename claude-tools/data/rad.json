@@ -25,7 +25,7 @@
      "claude-haiku-4-5-20251001": 0.3765,
      "claude-sonnet-5-5": 1.214,
      "claude-opus-5-5": 203.6819,
-     "claude-fable-5-1": 120.1084
+     "claude-fable-5-1": 117.5861
     },
     "2026-10-23": {
      "claude-sonnet-5-5": 9.2553,
@@ -149,7 +149,7 @@
   "billed": {},
   "notes": []
  },
- "generated": "2026-11-22 08:28",
+ "generated": "2026-11-22 08:43",
  "jobs": [
   {
    "label": "claude-blog-harvest",
@@ -170,7 +170,7 @@
    "cache_creation_30d": 1396366,
    "errors_7d": 1,
    "last_run_at": "2026-11-21 09:30:18",
-   "last_run_ago": "22h ago",
+   "last_run_ago": "23h ago",
    "last_run_exit": 0,
    "in_progress": false,
    "daily_cost": {
@@ -284,7 +284,7 @@
    "cache_creation_30d": 1509153,
    "errors_7d": 0,
    "last_run_at": "2026-11-22 06:35:04",
-   "last_run_ago": "1h ago",
+   "last_run_ago": "2h ago",
    "last_run_exit": 0,
    "in_progress": false,
    "daily_cost": {
@@ -348,7 +348,7 @@
    "cache_creation_30d": 2778028,
    "errors_7d": 0,
    "last_run_at": "2026-11-22 08:00:01",
-   "last_run_ago": "28m ago",
+   "last_run_ago": "43m ago",
    "last_run_exit": 0,
    "in_progress": false,
    "daily_cost": {
@@ -454,7 +454,7 @@
    "cache_creation_30d": 20594879,
    "errors_7d": 1,
    "last_run_at": "2026-11-22 08:00:01",
-   "last_run_ago": "28m ago",
+   "last_run_ago": "43m ago",
    "last_run_exit": 0,
    "in_progress": false,
    "daily_cost": {
@@ -494,7 +494,7 @@
    "cache_creation_30d": 10070297,
    "errors_7d": 1,
    "last_run_at": "2026-11-22 08:05:00",
-   "last_run_ago": "23m ago",
+   "last_run_ago": "38m ago",
    "last_run_exit": 0,
    "in_progress": false,
    "daily_cost": {
