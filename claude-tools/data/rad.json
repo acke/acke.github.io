@@ -136,7 +136,7 @@
     "2026-11-22": {
      "claude-sonnet-5-5": 3.7757,
      "claude-haiku-5-5": 0.6588,
-     "claude-opus-5-5": 4.9657
+     "claude-opus-5-5": 5.1122
     }
    },
    "unpriced_tokens": {}
@@ -144,7 +144,7 @@
   "billed": {},
   "notes": []
  },
- "generated": "2026-11-22 23:03",
+ "generated": "2026-11-22 23:18",
  "jobs": [
   {
    "label": "claude-blog-harvest",
@@ -239,7 +239,7 @@
    "cache_creation_30d": 1629927,
    "errors_7d": 0,
    "last_run_at": "2026-11-22 18:05:05",
-   "last_run_ago": "4h ago",
+   "last_run_ago": "5h ago",
    "last_run_exit": 0,
    "in_progress": false,
    "daily_cost": {
@@ -446,11 +446,10 @@
    "cache_creation_30d": 21022034,
    "errors_7d": 1,
    "last_run_at": "2026-11-22 23:00:05",
-   "last_run_ago": "3m ago",
+   "last_run_ago": "18m ago",
    "last_run_exit": 0,
    "in_progress": false,
    "daily_cost": {
-    "2026-11-08": 0.037238940000000005,
     "2026-11-09": 0.4699273799999999,
     "2026-11-10": 0.7683875399999999,
     "2026-11-11": 0.7880525199999999,
@@ -472,25 +471,24 @@
    "tool_dir": "wow-loop",
    "schedule": "hourly at :05",
    "emits_usage": true,
-   "total_runs": 1131,
+   "total_runs": 1132,
    "runs_24h": 24,
    "runs_7d": 153,
-   "runs_30d": 454,
-   "cost_7d": 41.401487915,
-   "cost_30d": 101.947239515,
-   "cost_all": 212.549925615,
-   "avg_cost_per_run": 0.18793096871352785,
-   "input_tokens_30d": 4044,
-   "output_tokens_30d": 336259,
-   "cache_read_30d": 66636579,
-   "cache_creation_30d": 10249004,
+   "runs_30d": 455,
+   "cost_7d": 41.403864515,
+   "cost_30d": 102.093642515,
+   "cost_all": 212.696328615,
+   "avg_cost_per_run": 0.1878942832287986,
+   "input_tokens_30d": 4052,
+   "output_tokens_30d": 336802,
+   "cache_read_30d": 66784334,
+   "cache_creation_30d": 10262249,
    "errors_7d": 1,
-   "last_run_at": "2026-11-22 22:05:00",
-   "last_run_ago": "58m ago",
+   "last_run_at": "2026-11-22 23:05:00",
+   "last_run_ago": "13m ago",
    "last_run_exit": 0,
    "in_progress": false,
    "daily_cost": {
-    "2026-11-08": 0.3564476,
     "2026-11-09": 4.150193000000001,
     "2026-11-10": 4.6783247999999995,
     "2026-11-11": 4.1652978,
@@ -504,7 +502,7 @@
     "2026-11-19": 3.6129267999999994,
     "2026-11-20": 7.768155915,
     "2026-11-21": 9.297111000000001,
-    "2026-11-22": 4.965750000000001
+    "2026-11-22": 5.112153000000001
    }
   }
  ],
