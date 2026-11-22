@@ -73,7 +73,7 @@
      "claude-opus-5-5": 8.0649
     },
     "2026-11-21": {
-     "claude-sonnet-5-5": 25.242,
+     "claude-sonnet-5-5": 26.1745,
      "claude-haiku-5-5": 0.0165
     }
    },
@@ -122,9 +122,27 @@
   "billed": {},
   "notes": [
    "API key: no key (keychain item claude-admin-key)"
-  ]
+  ],
+  "official": {
+   "source": "ai.neo4j.it people page, one custom date filter per day, whole dollars, lags 4 to 24 hours",
+   "days": {
+    "2026-11-08": 0,
+    "2026-11-09": 10,
+    "2026-11-10": 46,
+    "2026-11-11": 27,
+    "2026-11-12": 21,
+    "2026-11-13": 25,
+    "2026-11-14": 15,
+    "2026-11-15": 15,
+    "2026-11-16": 19,
+    "2026-11-17": 14,
+    "2026-11-18": 41,
+    "2026-11-19": 39,
+    "2026-11-20": 110
+   }
+  }
  },
- "generated": "2026-11-21 23:09",
+ "generated": "2026-11-22 13:00",
  "jobs": [],
  "top_runs": []
 }
