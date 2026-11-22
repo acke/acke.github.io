@@ -135,8 +135,8 @@
      "claude-opus-5-5": 9.2971
     },
     "2026-11-22": {
-     "claude-sonnet-5-5": 1.8936,
-     "claude-haiku-5-5": 0.4044,
+     "claude-sonnet-5-5": 2.1608,
+     "claude-haiku-5-5": 0.4132,
      "claude-opus-5-5": 3.6412
     }
    },
@@ -145,7 +145,7 @@
   "billed": {},
   "notes": []
  },
- "generated": "2026-11-22 16:45",
+ "generated": "2026-11-22 17:01",
  "jobs": [
   {
    "label": "claude-blog-harvest",
@@ -344,7 +344,7 @@
    "cache_creation_30d": 2797519,
    "errors_7d": 0,
    "last_run_at": "2026-11-22 12:00:03",
-   "last_run_ago": "4h ago",
+   "last_run_ago": "5h ago",
    "last_run_exit": 0,
    "in_progress": false,
    "daily_cost": {
@@ -384,7 +384,7 @@
    "cache_creation_30d": 0,
    "errors_7d": 0,
    "last_run_at": "2026-11-22 09:00:01",
-   "last_run_ago": "7h ago",
+   "last_run_ago": "8h ago",
    "last_run_exit": null,
    "in_progress": true,
    "daily_cost": {
@@ -436,23 +436,23 @@
    "tool_dir": "wow-loop",
    "schedule": "hourly at :00",
    "emits_usage": true,
-   "total_runs": 1037,
-   "runs_24h": 24,
+   "total_runs": 1038,
+   "runs_24h": 25,
    "runs_7d": 138,
-   "runs_30d": 370,
-   "cost_7d": 4.62648058,
+   "runs_30d": 371,
+   "cost_7d": 4.60925919,
    "cost_30d": 11.85551982,
    "cost_all": 240.41933212,
-   "avg_cost_per_run": 0.2318412074445516,
+   "avg_cost_per_run": 0.23161785368015414,
    "input_tokens_30d": 12254,
    "output_tokens_30d": 3716309,
    "cache_read_30d": 428052509,
    "cache_creation_30d": 20658219,
    "errors_7d": 1,
-   "last_run_at": "2026-11-22 16:00:04",
-   "last_run_ago": "45m ago",
-   "last_run_exit": 0,
-   "in_progress": false,
+   "last_run_at": "2026-11-22 17:00:04",
+   "last_run_ago": "0m ago",
+   "last_run_exit": null,
+   "in_progress": true,
    "daily_cost": {
     "2026-11-08": 0.11547394999999999,
     "2026-11-09": 0.4699273799999999,
@@ -490,7 +490,7 @@
    "cache_creation_30d": 10112753,
    "errors_7d": 1,
    "last_run_at": "2026-11-22 16:05:01",
-   "last_run_ago": "40m ago",
+   "last_run_ago": "56m ago",
    "last_run_exit": 0,
    "in_progress": false,
    "daily_cost": {
