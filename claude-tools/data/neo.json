@@ -4,6 +4,7 @@
   "label": "Neo account",
   "kind": "Enterprise login and API key",
   "admin_key": true,
+  "session_titles": true,
   "enterprise_actor_id": null,
   "estimated": {
    "days": {
@@ -81,7 +82,7 @@
      "claude-opus-5-5": 0.7166
     },
     "2026-11-23": {
-     "claude-sonnet-5-5": 13.3472,
+     "claude-sonnet-5-5": 13.4586,
      "claude-haiku-5-5": 0.0015
     }
    },
@@ -92,52 +93,62 @@
     [
      69.57,
      "2026-11-21",
-     "repos"
+     "repos",
+     "Neo4j-cli software factory plan"
     ],
     [
      17.63,
      "2026-11-10",
-     "home"
+     "home",
+     "RC enabled for new sessions"
     ],
     [
      13.28,
      "2026-11-13",
-     "home"
+     "home",
+     "Neo orchestrator in Hermes AI"
     ],
     [
      13.19,
      "2026-11-10",
-     "home"
+     "home",
+     "Neo4j Malm\u00f6 restaurant picker skill"
     ],
     [
      10.26,
      "2026-11-10",
-     "home"
+     "home",
+     "Neolink and AI guardrails"
     ],
     [
      10.22,
      "2026-11-20",
-     "home"
+     "home",
+     "Removed agentk and skills entries"
     ],
     [
      9.77,
      "2026-11-19",
-     "home"
+     "home",
+     "AI-reviewed auto-merge commit categories"
     ],
     [
      9.76,
      "2026-11-20",
-     "repos"
+     "repos",
+     "AI review eval pilot"
     ],
     [
      7.6,
      "2026-11-13",
-     "home"
+     "home",
+     "Claude-selfbackup launch agent"
     ],
     [
      7.37,
      "2026-11-16",
-     "neo4j-cli-fork-remotes"
+     "neo4j-cli-fork-remotes",
+     "P-DEVSURF-2322 neo4j-cli agent CLI audit"
     ]
    ],
    "skills": {
@@ -202,7 +213,7 @@
    }
   }
  },
- "generated": "2026-11-23 12:03",
+ "generated": "2026-11-23 12:07",
  "jobs": [],
  "top_runs": []
 }
