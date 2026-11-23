@@ -81,7 +81,7 @@
      "claude-opus-5-5": 0.7166
     },
     "2026-11-23": {
-     "claude-sonnet-5-5": 1.8272
+     "claude-sonnet-5-5": 2.7583
     }
    },
    "unpriced_tokens": {
@@ -149,7 +149,7 @@
    }
   }
  },
- "generated": "2026-11-23 09:47",
+ "generated": "2026-11-23 10:02",
  "jobs": [],
  "top_runs": []
 }
