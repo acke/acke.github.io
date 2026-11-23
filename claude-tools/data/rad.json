@@ -139,8 +139,8 @@
      "claude-opus-5-5": 5.1122
     },
     "2026-11-23": {
-     "claude-haiku-5-5": 0.104,
-     "claude-opus-5-5": 0.6731
+     "claude-opus-5-5": 1.0464,
+     "claude-haiku-5-5": 0.104
     }
    },
    "unpriced_tokens": {}
@@ -148,7 +148,7 @@
   "billed": {},
   "notes": []
  },
- "generated": "2026-11-23 03:04",
+ "generated": "2026-11-23 03:20",
  "jobs": [
   {
    "label": "claude-blog-harvest",
@@ -243,7 +243,7 @@
    "cache_creation_30d": 1629927,
    "errors_7d": 0,
    "last_run_at": "2026-11-22 18:05:05",
-   "last_run_ago": "8h ago",
+   "last_run_ago": "9h ago",
    "last_run_exit": 0,
    "in_progress": false,
    "daily_cost": {
@@ -450,7 +450,7 @@
    "cache_creation_30d": 21204718,
    "errors_7d": 1,
    "last_run_at": "2026-11-23 03:00:02",
-   "last_run_ago": "4m ago",
+   "last_run_ago": "20m ago",
    "last_run_exit": 0,
    "in_progress": false,
    "daily_cost": {
@@ -476,25 +476,25 @@
    "tool_dir": "wow-loop",
    "schedule": "hourly at :05",
    "emits_usage": true,
-   "total_runs": 1135,
+   "total_runs": 1136,
    "runs_24h": 24,
    "runs_7d": 153,
-   "runs_30d": 458,
-   "cost_7d": 41.165175315,
-   "cost_30d": 102.766726715,
-   "cost_all": 213.369412815,
-   "avg_cost_per_run": 0.18799067208370043,
-   "input_tokens_30d": 4076,
-   "output_tokens_30d": 338514,
-   "cache_read_30d": 67196995,
-   "cache_creation_30d": 10331776,
+   "runs_30d": 459,
+   "cost_7d": 41.397013915,
+   "cost_30d": 103.140034915,
+   "cost_all": 213.742721015,
+   "avg_cost_per_run": 0.1881538037103873,
+   "input_tokens_30d": 4084,
+   "output_tokens_30d": 338985,
+   "cache_read_30d": 67321756,
+   "cache_creation_30d": 10374139,
    "errors_7d": 1,
-   "last_run_at": "2026-11-23 02:05:05",
-   "last_run_ago": "59m ago",
+   "last_run_at": "2026-11-23 03:05:00",
+   "last_run_ago": "15m ago",
    "last_run_exit": 0,
    "in_progress": false,
    "daily_cost": {
-    "2026-11-09": 3.4921604,
+    "2026-11-09": 3.4414579999999995,
     "2026-11-10": 4.6783247999999995,
     "2026-11-11": 4.1652978,
     "2026-11-12": 4.173984,
@@ -508,7 +508,7 @@
     "2026-11-20": 7.768155915,
     "2026-11-21": 9.297111000000001,
     "2026-11-22": 5.112153000000001,
-    "2026-11-23": 0.6730841999999999
+    "2026-11-23": 1.0463924
    }
   }
  ],
