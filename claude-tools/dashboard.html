@@ -61,12 +61,6 @@
   .stats .num { display: block; font-size: 1.1rem; font-weight: 600; }
   .stats .lbl { display: block; color: var(--muted); font-size: 0.7rem; }
   .tokens { color: var(--muted); font-size: 0.75rem; margin-bottom: 12px; }
-  .cmp svg { width: 100%; height: auto; }
-  .cmp text { font-size: 9px; fill: var(--muted); }
-  .cmp .est { fill: var(--accent); }
-  .cmp .off { fill: #e8793a; }
-  .cmp .est-key::before, .cmp .off-key::before { content: ""; display: inline-block; width: 9px; height: 9px; margin: 0 4px 0 8px; background: var(--accent); }
-  .cmp .off-key::before { background: #e8793a; }
   .trend .bar-row { display: flex; align-items: center; gap: 8px; font-size: 0.72rem; margin: 3px 0; }
   .trend .bar-day { width: 34px; color: var(--muted); flex-shrink: 0; }
   .trend .bar-track {
@@ -94,41 +88,13 @@
 <body>
 <div class="wrap">
   <h1>claude-tools usage dashboard</h1>
-  <p class="generated">Generated 2026-11-24 02:24:57 &middot; estimated = list-price equivalent from Claude Code transcripts (subscriptions are not billed per token); billed = Admin API cost report</p>
-  <h2 class="account">Neo account <span class="meta">Enterprise login and API key &middot; updated 2026-11-24 02:24</span></h2>
-  <div class="totals"><div><span class="num">$0.00</span><span class="lbl">today, estimated</span></div><div><span class="num">$311.63</span><span class="lbl">7 days, estimated</span></div><div><span class="num">$603.75</span><span class="lbl">30 days, estimated</span></div></div>
-  <div class="grid">
-    <div class="card"><div class="cmp"><p class="meta">daily cost, last 14d &middot; <span class="est-key">estimated</span><span class="off-key">official</span></p><svg viewBox="0 0 560 190" role="img"><text x="0" y="10">$136</text><rect class="est" x="4.0" y="136.3" width="16.0" height="31.7"><title>2026-11-11 estimated $27.99</title></rect><rect class="off" x="20.0" y="137.4" width="16.0" height="30.6"><title>2026-11-11 official $27.00</title></rect><text x="20.0" y="184" text-anchor="middle">11</text><rect class="est" x="44.0" y="150.8" width="16.0" height="17.2"><title>2026-11-12 estimated $15.18</title></rect><rect class="off" x="60.0" y="144.2" width="16.0" height="23.8"><title>2026-11-12 official $21.00</title></rect><text x="60.0" y="184" text-anchor="middle">12</text><rect class="est" x="84.0" y="138.1" width="16.0" height="29.9"><title>2026-11-13 estimated $26.36</title></rect><rect class="off" x="100.0" y="139.7" width="16.0" height="28.3"><title>2026-11-13 official $25.00</title></rect><text x="100.0" y="184" text-anchor="middle">13</text><rect class="est" x="124.0" y="152.4" width="16.0" height="15.6"><title>2026-11-14 estimated $13.78</title></rect><rect class="off" x="140.0" y="151.0" width="16.0" height="17.0"><title>2026-11-14 official $15.00</title></rect><text x="140.0" y="184" text-anchor="middle">14</text><rect class="est" x="164.0" y="144.5" width="16.0" height="23.5"><title>2026-11-15 estimated $20.70</title></rect><rect class="off" x="180.0" y="151.0" width="16.0" height="17.0"><title>2026-11-15 official $15.00</title></rect><text x="180.0" y="184" text-anchor="middle">15</text><rect class="est" x="204.0" y="112.2" width="16.0" height="55.8"><title>2026-11-16 estimated $49.20</title></rect><rect class="off" x="220.0" y="146.5" width="16.0" height="21.5"><title>2026-11-16 official $19.00</title></rect><text x="220.0" y="184" text-anchor="middle">16</text><rect class="est" x="244.0" y="106.1" width="16.0" height="61.9"><title>2026-11-17 estimated $54.58</title></rect><rect class="off" x="260.0" y="152.1" width="16.0" height="15.9"><title>2026-11-17 official $14.00</title></rect><text x="260.0" y="184" text-anchor="middle">17</text><rect class="est" x="284.0" y="108.3" width="16.0" height="59.7"><title>2026-11-18 estimated $52.71</title></rect><rect class="off" x="300.0" y="121.5" width="16.0" height="46.5"><title>2026-11-18 official $41.00</title></rect><text x="300.0" y="184" text-anchor="middle">18</text><rect class="est" x="324.0" y="106.3" width="16.0" height="61.7"><title>2026-11-19 estimated $54.40</title></rect><rect class="off" x="340.0" y="123.8" width="16.0" height="44.2"><title>2026-11-19 official $39.00</title></rect><text x="340.0" y="184" text-anchor="middle">19</text><rect class="est" x="364.0" y="14.0" width="16.0" height="154.0"><title>2026-11-20 estimated $135.85</title></rect><rect class="off" x="380.0" y="43.3" width="16.0" height="124.7"><title>2026-11-20 official $110.00</title></rect><text x="380.0" y="184" text-anchor="middle">20</text><rect class="est" x="404.0" y="138.3" width="16.0" height="29.7"><title>2026-11-21 estimated $26.19</title></rect><text x="420.0" y="184" text-anchor="middle">21</text><rect class="est" x="444.0" y="153.2" width="16.0" height="14.8"><title>2026-11-22 estimated $13.08</title></rect><text x="460.0" y="184" text-anchor="middle">22</text><rect class="est" x="484.0" y="134.7" width="16.0" height="33.3"><title>2026-11-23 estimated $29.41</title></rect><text x="500.0" y="184" text-anchor="middle">23</text><rect class="est" x="524.0" y="167.0" width="16.0" height="1.0"><title>2026-11-24 estimated $0.00</title></rect><text x="540.0" y="184" text-anchor="middle">24</text></svg><p class="meta">10 days with both: estimated $451, official $326</p></div></div>
-    
-    <div class="card"><p class="meta">estimated by model, 30 days</p><table class="toplist"><tbody><tr><td>claude-sonnet-5-5</td><td class="num">$506.04</td></tr><tr><td>claude-opus-5-5</td><td class="num">$95.26</td></tr><tr><td>claude-haiku-5-5</td><td class="num">$2.45</td></tr></tbody></table></div>
-    <div class="card"><p class="meta">top 10 sessions, 30 days: estimated cost, goal, last activity, project</p><table class="toplist"><tbody><tr><td class="num">$69.57</td><td>Neo4j-cli software factory plan</td><td>2026-11-21</td><td>repos</td></tr><tr><td class="num">$17.63</td><td>RC enabled for new sessions</td><td>2026-11-10</td><td>home</td></tr><tr><td class="num">$13.28</td><td>Neo orchestrator in Hermes AI</td><td>2026-11-13</td><td>home</td></tr><tr><td class="num">$13.19</td><td>Neo4j Malmö restaurant picker skill</td><td>2026-11-10</td><td>home</td></tr><tr><td class="num">$10.26</td><td>Neolink and AI guardrails</td><td>2026-11-10</td><td>home</td></tr><tr><td class="num">$10.22</td><td>Removed agentk and skills entries</td><td>2026-11-20</td><td>home</td></tr><tr><td class="num">$9.77</td><td>AI-reviewed auto-merge commit categories</td><td>2026-11-19</td><td>home</td></tr><tr><td class="num">$9.76</td><td>AI review eval pilot</td><td>2026-11-20</td><td>repos</td></tr><tr><td class="num">$7.60</td><td>Claude-selfbackup launch agent</td><td>2026-11-13</td><td>home</td></tr><tr><td class="num">$7.37</td><td>P-DEVSURF-2322 neo4j-cli agent CLI audit</td><td>2026-11-16</td><td>neo4j-cli-fork-remotes</td></tr></tbody></table></div>
-    <div class="card"><p class="meta">skills, 30 days: invocations and approx cost (turns after the skill loads, until the next human message)</p><table class="toplist"><tbody><tr><td>gbuild:run</td><td class="num">2&times;</td><td class="num">$0.37</td></tr><tr><td>malmo-lunch:lunch</td><td class="num">2&times;</td><td class="num">$0.15</td></tr><tr><td>writing-great-skills</td><td class="num">1&times;</td><td class="num">$0.07</td></tr><tr><td>gbuild:review</td><td class="num">2&times;</td><td class="num">$0.07</td></tr><tr><td>reflect</td><td class="num">1&times;</td><td class="num">$0.05</td></tr><tr><td>beagle-go:review-verification-protocol</td><td class="num">1&times;</td><td class="num">$0.02</td></tr></tbody></table></div>
-  </div>
-  <p class="warn">API key: no key (keychain item claude-admin-key)</p><p class="warn">unpriced models (add to prices.json): accounts/fireworks/models/glm-5p3</p>
-  <p class="meta">0 headless job(s) on this machine, cost as logged by each run</p>
-  <div class="totals">
-    <div><span class="num">$0.00</span><span class="lbl">jobs, last 7 days</span></div>
-    <div><span class="num">$0.00</span><span class="lbl">jobs, last 30 days</span></div>
-    <div><span class="num">$0.00</span><span class="lbl">jobs, all-time</span></div>
-    <div><span class="num">0</span><span class="lbl">errors, last 7d</span></div>
-  </div>
-  <h3 class="section">Top 0 jobs by cost (all-time)</h3>
-  <p class="meta">no usage data yet</p>
-  <h3 class="section">Top 0 most expensive runs (all-time)</h3>
-  <p class="meta">no usage data yet</p>
-  <h3 class="section">Jobs</h3>
-  <div class="grid">
-    
-  </div>
-
-<h2 class="account">Rad account <span class="meta">Max subscription, estimated at list price &middot; updated 2026-11-24 02:13</span></h2>
+  <p class="generated">Generated 2026-11-24 02:28:09 &middot; estimated = list-price equivalent from Claude Code transcripts (subscriptions are not billed per token); billed = Admin API cost report</p>
+  <h2 class="account">Rad account <span class="meta">Max subscription, estimated at list price &middot; updated 2026-11-24 02:28</span></h2>
   <div class="totals"><div><span class="num">$0.99</span><span class="lbl">today, estimated</span></div><div><span class="num">$58.27</span><span class="lbl">7 days, estimated</span></div><div><span class="num">$204.08</span><span class="lbl">30 days, estimated</span></div></div>
   <div class="grid">
-    <div class="card"><div class="cmp"><p class="meta">daily cost, last 14d &middot; <span class="est-key">estimated</span></p><svg viewBox="0 0 560 190" role="img"><text x="0" y="10">$21</text><rect class="est" x="4.0" y="112.7" width="16.0" height="55.3"><title>2026-11-11 estimated $7.40</title></rect><text x="20.0" y="184" text-anchor="middle">11</text><rect class="est" x="44.0" y="112.2" width="16.0" height="55.8"><title>2026-11-12 estimated $7.46</title></rect><text x="60.0" y="184" text-anchor="middle">12</text><rect class="est" x="84.0" y="94.5" width="16.0" height="73.5"><title>2026-11-13 estimated $9.84</title></rect><text x="100.0" y="184" text-anchor="middle">13</text><rect class="est" x="124.0" y="73.3" width="16.0" height="94.7"><title>2026-11-14 estimated $12.67</title></rect><text x="140.0" y="184" text-anchor="middle">14</text><rect class="est" x="164.0" y="14.0" width="16.0" height="154.0"><title>2026-11-15 estimated $20.61</title></rect><text x="180.0" y="184" text-anchor="middle">15</text><rect class="est" x="204.0" y="112.3" width="16.0" height="55.7"><title>2026-11-16 estimated $7.46</title></rect><text x="220.0" y="184" text-anchor="middle">16</text><rect class="est" x="244.0" y="71.3" width="16.0" height="96.7"><title>2026-11-17 estimated $12.94</title></rect><text x="260.0" y="184" text-anchor="middle">17</text><rect class="est" x="284.0" y="96.9" width="16.0" height="71.1"><title>2026-11-18 estimated $9.51</title></rect><text x="300.0" y="184" text-anchor="middle">18</text><rect class="est" x="324.0" y="119.4" width="16.0" height="48.6"><title>2026-11-19 estimated $6.51</title></rect><text x="340.0" y="184" text-anchor="middle">19</text><rect class="est" x="364.0" y="78.2" width="16.0" height="89.8"><title>2026-11-20 estimated $12.01</title></rect><text x="380.0" y="184" text-anchor="middle">20</text><rect class="est" x="404.0" y="76.0" width="16.0" height="92.0"><title>2026-11-21 estimated $12.31</title></rect><text x="420.0" y="184" text-anchor="middle">21</text><rect class="est" x="444.0" y="96.7" width="16.0" height="71.3"><title>2026-11-22 estimated $9.55</title></rect><text x="460.0" y="184" text-anchor="middle">22</text><rect class="est" x="484.0" y="112.8" width="16.0" height="55.2"><title>2026-11-23 estimated $7.38</title></rect><text x="500.0" y="184" text-anchor="middle">23</text><rect class="est" x="524.0" y="160.6" width="16.0" height="7.4"><title>2026-11-24 estimated $0.99</title></rect><text x="540.0" y="184" text-anchor="middle">24</text></svg></div></div>
+    <div class="card"><div class="trend"><p class="meta">estimated, daily, last 14d</p><div class="bar-row"><span class="bar-day">11-10</span><div class="bar-track"><div class="bar-fill" style="width:47%"></div></div><span class="bar-val">$9.63</span></div><div class="bar-row"><span class="bar-day">11-11</span><div class="bar-track"><div class="bar-fill" style="width:36%"></div></div><span class="bar-val">$7.40</span></div><div class="bar-row"><span class="bar-day">11-12</span><div class="bar-track"><div class="bar-fill" style="width:36%"></div></div><span class="bar-val">$7.46</span></div><div class="bar-row"><span class="bar-day">11-13</span><div class="bar-track"><div class="bar-fill" style="width:48%"></div></div><span class="bar-val">$9.84</span></div><div class="bar-row"><span class="bar-day">11-14</span><div class="bar-track"><div class="bar-fill" style="width:61%"></div></div><span class="bar-val">$12.67</span></div><div class="bar-row"><span class="bar-day">11-15</span><div class="bar-track"><div class="bar-fill" style="width:100%"></div></div><span class="bar-val">$20.61</span></div><div class="bar-row"><span class="bar-day">11-16</span><div class="bar-track"><div class="bar-fill" style="width:36%"></div></div><span class="bar-val">$7.46</span></div><div class="bar-row"><span class="bar-day">11-17</span><div class="bar-track"><div class="bar-fill" style="width:63%"></div></div><span class="bar-val">$12.94</span></div><div class="bar-row"><span class="bar-day">11-18</span><div class="bar-track"><div class="bar-fill" style="width:46%"></div></div><span class="bar-val">$9.51</span></div><div class="bar-row"><span class="bar-day">11-19</span><div class="bar-track"><div class="bar-fill" style="width:32%"></div></div><span class="bar-val">$6.51</span></div><div class="bar-row"><span class="bar-day">11-20</span><div class="bar-track"><div class="bar-fill" style="width:58%"></div></div><span class="bar-val">$12.01</span></div><div class="bar-row"><span class="bar-day">11-21</span><div class="bar-track"><div class="bar-fill" style="width:60%"></div></div><span class="bar-val">$12.31</span></div><div class="bar-row"><span class="bar-day">11-22</span><div class="bar-track"><div class="bar-fill" style="width:46%"></div></div><span class="bar-val">$9.55</span></div><div class="bar-row"><span class="bar-day">11-23</span><div class="bar-track"><div class="bar-fill" style="width:36%"></div></div><span class="bar-val">$7.38</span></div><div class="bar-row"><span class="bar-day">11-24</span><div class="bar-track"><div class="bar-fill" style="width:5%"></div></div><span class="bar-val">$0.99</span></div></div></div>
     
     <div class="card"><p class="meta">estimated by model, 30 days</p><table class="toplist"><tbody><tr><td>claude-opus-5-5</td><td class="num">$106.16</td></tr><tr><td>claude-sonnet-5-5</td><td class="num">$86.05</td></tr><tr><td>claude-haiku-5-5</td><td class="num">$11.87</td></tr></tbody></table></div>
-    
-    
   </div>
   
   <p class="meta">10 headless job(s) on this machine, cost as logged by each run</p>
@@ -168,7 +134,7 @@
 <section class="card">
   <header>
     <h2>dagskoll</h2>
-    <span class="badge ok">ok &middot; 18h ago</span>
+    <span class="badge ok">ok &middot; 19h ago</span>
   </header>
   <p class="meta">dagskoll &middot; weekdays 07:15</p>
   <div class="stats">
@@ -308,7 +274,7 @@
 <section class="card">
   <header>
     <h2>wow-checker</h2>
-    <span class="badge ok">ok &middot; 13m ago</span>
+    <span class="badge ok">ok &middot; 28m ago</span>
   </header>
   <p class="meta">wow-loop &middot; hourly at :00</p>
   <div class="stats">
@@ -328,7 +294,7 @@
 <section class="card">
   <header>
     <h2>wow-matcher</h2>
-    <span class="badge ok">ok &middot; 8m ago</span>
+    <span class="badge ok">ok &middot; 23m ago</span>
   </header>
   <p class="meta">wow-loop &middot; hourly at :05</p>
   <div class="stats">
@@ -345,6 +311,30 @@
   <div class="trend"><p class="meta">daily cost, last 14d</p><div class="bar-row"><span class="bar-day">11-10</span><div class="bar-track"><div class="bar-fill" style="width:46%"></div></div><span class="bar-val">$4.24</span></div><div class="bar-row"><span class="bar-day">11-11</span><div class="bar-track"><div class="bar-fill" style="width:45%"></div></div><span class="bar-val">$4.17</span></div><div class="bar-row"><span class="bar-day">11-12</span><div class="bar-track"><div class="bar-fill" style="width:45%"></div></div><span class="bar-val">$4.17</span></div><div class="bar-row"><span class="bar-day">11-13</span><div class="bar-track"><div class="bar-fill" style="width:68%"></div></div><span class="bar-val">$6.28</span></div><div class="bar-row"><span class="bar-day">11-14</span><div class="bar-track"><div class="bar-fill" style="width:56%"></div></div><span class="bar-val">$5.17</span></div><div class="bar-row"><span class="bar-day">11-15</span><div class="bar-track"><div class="bar-fill" style="width:54%"></div></div><span class="bar-val">$5.01</span></div><div class="bar-row"><span class="bar-day">11-16</span><div class="bar-track"><div class="bar-fill" style="width:47%"></div></div><span class="bar-val">$4.41</span></div><div class="bar-row"><span class="bar-day">11-17</span><div class="bar-track"><div class="bar-fill" style="width:50%"></div></div><span class="bar-val">$4.61</span></div><div class="bar-row"><span class="bar-day">11-18</span><div class="bar-track"><div class="bar-fill" style="width:71%"></div></div><span class="bar-val">$6.59</span></div><div class="bar-row"><span class="bar-day">11-19</span><div class="bar-track"><div class="bar-fill" style="width:39%"></div></div><span class="bar-val">$3.61</span></div><div class="bar-row"><span class="bar-day">11-20</span><div class="bar-track"><div class="bar-fill" style="width:84%"></div></div><span class="bar-val">$7.77</span></div><div class="bar-row"><span class="bar-day">11-21</span><div class="bar-track"><div class="bar-fill" style="width:100%"></div></div><span class="bar-val">$9.30</span></div><div class="bar-row"><span class="bar-day">11-22</span><div class="bar-track"><div class="bar-fill" style="width:55%"></div></div><span class="bar-val">$5.11</span></div><div class="bar-row"><span class="bar-day">11-23</span><div class="bar-track"><div class="bar-fill" style="width:45%"></div></div><span class="bar-val">$4.18</span></div><div class="bar-row"><span class="bar-day">11-24</span><div class="bar-track"><div class="bar-fill" style="width:10%"></div></div><span class="bar-val">$0.90</span></div></div>
 </section>
 
+  </div>
+
+<h2 class="account">Neo account <span class="meta">Enterprise login and API key &middot; updated 2026-11-24 02:24</span></h2>
+  <div class="totals"><div><span class="num">$0.00</span><span class="lbl">today, estimated</span></div><div><span class="num">$311.63</span><span class="lbl">7 days, estimated</span></div><div><span class="num">$603.75</span><span class="lbl">30 days, estimated</span></div></div>
+  <div class="grid">
+    <div class="card"><div class="trend"><p class="meta">estimated, daily, last 14d</p><div class="bar-row"><span class="bar-day">11-10</span><div class="bar-track"><div class="bar-fill" style="width:38%"></div></div><span class="bar-val">$51.87</span></div><div class="bar-row"><span class="bar-day">11-11</span><div class="bar-track"><div class="bar-fill" style="width:21%"></div></div><span class="bar-val">$27.99</span></div><div class="bar-row"><span class="bar-day">11-12</span><div class="bar-track"><div class="bar-fill" style="width:11%"></div></div><span class="bar-val">$15.18</span></div><div class="bar-row"><span class="bar-day">11-13</span><div class="bar-track"><div class="bar-fill" style="width:19%"></div></div><span class="bar-val">$26.36</span></div><div class="bar-row"><span class="bar-day">11-14</span><div class="bar-track"><div class="bar-fill" style="width:10%"></div></div><span class="bar-val">$13.78</span></div><div class="bar-row"><span class="bar-day">11-15</span><div class="bar-track"><div class="bar-fill" style="width:15%"></div></div><span class="bar-val">$20.70</span></div><div class="bar-row"><span class="bar-day">11-16</span><div class="bar-track"><div class="bar-fill" style="width:36%"></div></div><span class="bar-val">$49.20</span></div><div class="bar-row"><span class="bar-day">11-17</span><div class="bar-track"><div class="bar-fill" style="width:40%"></div></div><span class="bar-val">$54.58</span></div><div class="bar-row"><span class="bar-day">11-18</span><div class="bar-track"><div class="bar-fill" style="width:39%"></div></div><span class="bar-val">$52.71</span></div><div class="bar-row"><span class="bar-day">11-19</span><div class="bar-track"><div class="bar-fill" style="width:40%"></div></div><span class="bar-val">$54.40</span></div><div class="bar-row"><span class="bar-day">11-20</span><div class="bar-track"><div class="bar-fill" style="width:100%"></div></div><span class="bar-val">$135.85</span></div><div class="bar-row"><span class="bar-day">11-21</span><div class="bar-track"><div class="bar-fill" style="width:19%"></div></div><span class="bar-val">$26.19</span></div><div class="bar-row"><span class="bar-day">11-22</span><div class="bar-track"><div class="bar-fill" style="width:10%"></div></div><span class="bar-val">$13.08</span></div><div class="bar-row"><span class="bar-day">11-23</span><div class="bar-track"><div class="bar-fill" style="width:22%"></div></div><span class="bar-val">$29.41</span></div></div></div>
+    
+    <div class="card"><p class="meta">estimated by model, 30 days</p><table class="toplist"><tbody><tr><td>claude-sonnet-5-5</td><td class="num">$506.04</td></tr><tr><td>claude-opus-5-5</td><td class="num">$95.26</td></tr><tr><td>claude-haiku-5-5</td><td class="num">$2.45</td></tr></tbody></table></div>
+  </div>
+  <p class="warn">API key: no key (keychain item claude-admin-key)</p><p class="warn">unpriced models (add to prices.json): accounts/fireworks/models/glm-5p3</p>
+  <p class="meta">0 headless job(s) on this machine, cost as logged by each run</p>
+  <div class="totals">
+    <div><span class="num">$0.00</span><span class="lbl">jobs, last 7 days</span></div>
+    <div><span class="num">$0.00</span><span class="lbl">jobs, last 30 days</span></div>
+    <div><span class="num">$0.00</span><span class="lbl">jobs, all-time</span></div>
+    <div><span class="num">0</span><span class="lbl">errors, last 7d</span></div>
+  </div>
+  <h3 class="section">Top 0 jobs by cost (all-time)</h3>
+  <p class="meta">no usage data yet</p>
+  <h3 class="section">Top 0 most expensive runs (all-time)</h3>
+  <p class="meta">no usage data yet</p>
+  <h3 class="section">Jobs</h3>
+  <div class="grid">
+    
   </div>
 
 </div>
