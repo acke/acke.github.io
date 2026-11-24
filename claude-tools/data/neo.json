@@ -86,7 +86,7 @@
      "claude-haiku-5-5": 0.0015
     },
     "2026-11-24": {
-     "claude-sonnet-5-5": 27.3786,
+     "claude-sonnet-5-5": 33.9295,
      "claude-haiku-5-5": 0.0104
     }
    },
@@ -107,6 +107,12 @@
      "RC enabled for new sessions"
     ],
     [
+     15.74,
+     "2026-11-24",
+     "repos",
+     "Nights watch SWF CLI"
+    ],
+    [
      13.28,
      "2026-11-13",
      "home",
@@ -117,12 +123,6 @@
      "2026-11-10",
      "home",
      "Neo4j Malm\u00f6 restaurant picker skill"
-    ],
-    [
-     11.28,
-     "2026-11-24",
-     "repos",
-     "Nights watch SWF CLI"
     ],
     [
      10.26,
@@ -217,7 +217,7 @@
    }
   }
  },
- "generated": "2026-11-24 21:45",
+ "generated": "2026-11-24 22:00",
  "jobs": [],
  "top_runs": []
 }
