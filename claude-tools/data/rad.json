@@ -145,7 +145,7 @@
     },
     "2026-11-24": {
      "claude-sonnet-5-5": 2.1804,
-     "claude-haiku-5-5": 0.2725,
+     "claude-haiku-5-5": 0.2807,
      "claude-opus-5-5": 2.139
     }
    },
@@ -154,7 +154,7 @@
   "billed": {},
   "notes": []
  },
- "generated": "2026-11-24 09:45",
+ "generated": "2026-11-24 10:00",
  "jobs": [
   {
    "label": "claude-blog-harvest",
@@ -175,7 +175,7 @@
    "cache_creation_30d": 1563748,
    "errors_7d": 1,
    "last_run_at": "2026-11-24 09:30:04",
-   "last_run_ago": "15m ago",
+   "last_run_ago": "30m ago",
    "last_run_exit": 0,
    "in_progress": false,
    "daily_cost": {
@@ -353,7 +353,7 @@
    "cache_creation_30d": 3090883,
    "errors_7d": 0,
    "last_run_at": "2026-11-24 08:00:04",
-   "last_run_ago": "1h ago",
+   "last_run_ago": "2h ago",
    "last_run_exit": 0,
    "in_progress": false,
    "daily_cost": {
@@ -393,7 +393,7 @@
    "cache_creation_30d": 0,
    "errors_7d": 0,
    "last_run_at": "2026-11-24 09:00:05",
-   "last_run_ago": "45m ago",
+   "last_run_ago": "1h ago",
    "last_run_exit": null,
    "in_progress": true,
    "daily_cost": {
@@ -445,25 +445,25 @@
    "tool_dir": "wow-loop",
    "schedule": "hourly at :00",
    "emits_usage": true,
-   "total_runs": 1078,
+   "total_runs": 1079,
    "runs_24h": 24,
    "runs_7d": 138,
-   "runs_30d": 411,
-   "cost_7d": 4.48263225,
+   "runs_30d": 412,
+   "cost_7d": 4.45963409,
    "cost_30d": 13.01007837,
    "cost_all": 241.57389067,
-   "avg_cost_per_run": 0.22409451824675325,
+   "avg_cost_per_run": 0.22388683101946247,
    "input_tokens_30d": 13538,
    "output_tokens_30d": 4131386,
    "cache_read_30d": 474542246,
    "cache_creation_30d": 22596883,
    "errors_7d": 1,
-   "last_run_at": "2026-11-24 09:00:05",
-   "last_run_ago": "45m ago",
-   "last_run_exit": 0,
-   "in_progress": false,
+   "last_run_at": "2026-11-24 10:00:05",
+   "last_run_ago": "0m ago",
+   "last_run_exit": null,
+   "in_progress": true,
    "daily_cost": {
-    "2026-11-10": 0.49827909000000004,
+    "2026-11-10": 0.4679020300000001,
     "2026-11-11": 0.7880525199999999,
     "2026-11-12": 0.64591326,
     "2026-11-13": 0.6251511300000001,
@@ -499,7 +499,7 @@
    "cache_creation_30d": 10883298,
    "errors_7d": 1,
    "last_run_at": "2026-11-24 09:05:05",
-   "last_run_ago": "40m ago",
+   "last_run_ago": "55m ago",
    "last_run_exit": 0,
    "in_progress": false,
    "daily_cost": {
