@@ -86,7 +86,7 @@
      "claude-haiku-5-5": 0.0015
     },
     "2026-11-24": {
-     "claude-sonnet-5-5": 42.0594,
+     "claude-sonnet-5-5": 43.263,
      "claude-haiku-5-5": 0.0104
     }
    },
@@ -168,6 +168,12 @@
       0.0655
      ]
     },
+    "swf-setup-repo": {
+     "2026-11-24": [
+      1,
+      0.0491
+     ]
+    },
     "beagle-go:review-verification-protocol": {
      "2026-11-20": [
       1,
@@ -217,7 +223,7 @@
    }
   }
  },
- "generated": "2026-11-24 22:46",
+ "generated": "2026-11-24 23:01",
  "jobs": [],
  "top_runs": []
 }
