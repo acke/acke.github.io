@@ -86,7 +86,7 @@
      "claude-haiku-5-5": 0.0015
     },
     "2026-11-24": {
-     "claude-sonnet-5-5": 37.5834,
+     "claude-sonnet-5-5": 42.0594,
      "claude-haiku-5-5": 0.0104
     }
    },
@@ -101,7 +101,7 @@
      "Neo4j-cli software factory plan"
     ],
     [
-     17.65,
+     22.13,
      "2026-11-24",
      "repos",
      "Nights watch SWF CLI"
@@ -217,7 +217,7 @@
    }
   }
  },
- "generated": "2026-11-24 22:31",
+ "generated": "2026-11-24 22:46",
  "jobs": [],
  "top_runs": []
 }
