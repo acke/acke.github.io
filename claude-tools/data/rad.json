@@ -145,8 +145,8 @@
     },
     "2026-11-24": {
      "claude-sonnet-5-5": 2.5071,
-     "claude-haiku-5-5": 0.3906,
-     "claude-opus-5-5": 2.9575
+     "claude-haiku-5-5": 0.4001,
+     "claude-opus-5-5": 3.1084
     }
    },
    "unpriced_tokens": {}
@@ -154,7 +154,7 @@
   "billed": {},
   "notes": []
  },
- "generated": "2026-11-24 14:02",
+ "generated": "2026-11-24 14:17",
  "jobs": [
   {
    "label": "claude-blog-harvest",
@@ -214,7 +214,7 @@
    "cache_creation_30d": 679799,
    "errors_7d": 0,
    "last_run_at": "2026-11-24 07:15:05",
-   "last_run_ago": "6h ago",
+   "last_run_ago": "7h ago",
    "last_run_exit": 0,
    "in_progress": false,
    "daily_cost": {
@@ -249,7 +249,7 @@
    "cache_creation_30d": 1792488,
    "errors_7d": 0,
    "last_run_at": "2026-11-24 06:05:05",
-   "last_run_ago": "7h ago",
+   "last_run_ago": "8h ago",
    "last_run_exit": 0,
    "in_progress": false,
    "daily_cost": {
@@ -449,19 +449,19 @@
    "runs_24h": 24,
    "runs_7d": 138,
    "runs_30d": 416,
-   "cost_7d": 4.4317627,
-   "cost_30d": 13.11168714,
-   "cost_all": 241.67549944,
-   "avg_cost_per_run": 0.2231537390951062,
-   "input_tokens_30d": 13654,
-   "output_tokens_30d": 4170621,
-   "cache_read_30d": 478835173,
-   "cache_creation_30d": 22792135,
+   "cost_7d": 4.45774987,
+   "cost_30d": 13.137674310000001,
+   "cost_all": 241.70148661,
+   "avg_cost_per_run": 0.22317773463527238,
+   "input_tokens_30d": 13684,
+   "output_tokens_30d": 4183245,
+   "cache_read_30d": 479922090,
+   "cache_creation_30d": 22836150,
    "errors_7d": 1,
    "last_run_at": "2026-11-24 14:00:05",
-   "last_run_ago": "2m ago",
-   "last_run_exit": null,
-   "in_progress": true,
+   "last_run_ago": "17m ago",
+   "last_run_exit": 0,
+   "in_progress": false,
    "daily_cost": {
     "2026-11-10": 0.307631,
     "2026-11-11": 0.7880525199999999,
@@ -477,7 +477,7 @@
     "2026-11-21": 0.6281865499999999,
     "2026-11-22": 0.69762762,
     "2026-11-23": 0.6362714599999999,
-    "2026-11-24": 0.36930838
+    "2026-11-24": 0.39529555
    }
   },
   {
@@ -485,25 +485,25 @@
    "tool_dir": "wow-loop",
    "schedule": "hourly at :05",
    "emits_usage": true,
-   "total_runs": 1170,
+   "total_runs": 1171,
    "runs_24h": 24,
    "runs_7d": 153,
-   "runs_30d": 493,
-   "cost_7d": 41.596219915,
-   "cost_30d": 109.230397715,
-   "cost_all": 219.833083815,
-   "avg_cost_per_run": 0.18789152462820513,
-   "input_tokens_30d": 4356,
-   "output_tokens_30d": 358172,
-   "cache_read_30d": 72183910,
-   "cache_creation_30d": 10965777,
+   "runs_30d": 494,
+   "cost_7d": 41.557177515,
+   "cost_30d": 109.381231915,
+   "cost_all": 219.983918015,
+   "avg_cost_per_run": 0.18785987874893254,
+   "input_tokens_30d": 4364,
+   "output_tokens_30d": 358757,
+   "cache_read_30d": 72331781,
+   "cache_creation_30d": 10979468,
    "errors_7d": 1,
-   "last_run_at": "2026-11-24 13:05:05",
-   "last_run_ago": "57m ago",
+   "last_run_at": "2026-11-24 14:05:05",
+   "last_run_ago": "12m ago",
    "last_run_exit": 0,
    "in_progress": false,
    "daily_cost": {
-    "2026-11-10": 1.5253344000000002,
+    "2026-11-10": 1.3890192000000001,
     "2026-11-11": 4.1652978,
     "2026-11-12": 4.173984,
     "2026-11-13": 6.277202600000001,
@@ -517,7 +517,7 @@
     "2026-11-21": 9.297111000000001,
     "2026-11-22": 5.112153000000001,
     "2026-11-23": 4.1792194,
-    "2026-11-24": 2.9575358
+    "2026-11-24": 3.10837
    }
   }
  ],
