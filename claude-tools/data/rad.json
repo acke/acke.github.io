@@ -13,19 +13,13 @@
      "claude-haiku-4-5-20251001": 1.8681
     },
     "2026-10-20": {
-     "claude-sonnet-5-5": 2.6265,
-     "claude-opus-5-5": 52.8122
+     "claude-sonnet-5-5": 2.6265
     },
     "2026-10-21": {
-     "claude-sonnet-5-5": 0.6418,
-     "claude-opus-5-5": 55.2679
+     "claude-sonnet-5-5": 0.6418
     },
     "2026-10-22": {
-     "claude-sonnet-5-5": 1.214,
-     "claude-opus-5-5": 68.3676
-    },
-    "2026-10-23": {
-     "claude-opus-5-5": 10.3915
+     "claude-sonnet-5-5": 1.214
     },
     "2026-10-31": {
      "claude-sonnet-5-5": 0.9931
@@ -152,16 +146,6 @@
    "unpriced_tokens": {},
    "top_sessions": [
     [
-     171.86,
-     "2026-10-23",
-     "talva-platform"
-    ],
-    [
-     11.66,
-     "2026-10-22",
-     "talva-platform"
-    ],
-    [
      6.52,
      "2026-11-14",
      "home"
@@ -174,11 +158,6 @@
     [
      4.66,
      "2026-11-22",
-     "talva-platform"
-    ],
-    [
-     3.32,
-     "2026-10-23",
      "talva-platform"
     ],
     [
@@ -200,6 +179,21 @@
      1.38,
      "2026-11-20",
      "knuts-ways-of-working"
+    ],
+    [
+     1.3,
+     "2026-11-15",
+     "home"
+    ],
+    [
+     1.26,
+     "2026-11-06",
+     "brain"
+    ],
+    [
+     1.23,
+     "2026-11-10",
+     "home"
     ]
    ],
    "skills": {
@@ -298,7 +292,7 @@
   "billed": {},
   "notes": []
  },
- "generated": "2026-11-24 20:34",
+ "generated": "2026-11-24 20:49",
  "jobs": [
   {
    "label": "claude-blog-harvest",
@@ -432,7 +426,7 @@
    "cache_creation_30d": 1754378,
    "errors_7d": 0,
    "last_run_at": "2026-11-24 18:35:05",
-   "last_run_ago": "1h ago",
+   "last_run_ago": "2h ago",
    "last_run_exit": 0,
    "in_progress": false,
    "daily_cost": {
@@ -600,7 +594,7 @@
    "cache_creation_30d": 23174921,
    "errors_7d": 1,
    "last_run_at": "2026-11-24 20:00:04",
-   "last_run_ago": "34m ago",
+   "last_run_ago": "49m ago",
    "last_run_exit": 0,
    "in_progress": false,
    "daily_cost": {
@@ -640,7 +634,7 @@
    "cache_creation_30d": 11087208,
    "errors_7d": 1,
    "last_run_at": "2026-11-24 20:05:05",
-   "last_run_ago": "29m ago",
+   "last_run_ago": "44m ago",
    "last_run_exit": 0,
    "in_progress": false,
    "daily_cost": {
