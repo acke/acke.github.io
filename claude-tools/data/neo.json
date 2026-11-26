@@ -94,7 +94,7 @@
      "claude-haiku-5-5": 0.067
     },
     "2026-11-26": {
-     "claude-sonnet-5-5": 71.4251,
+     "claude-sonnet-5-5": 75.7781,
      "claude-opus-5-5": 3.0101,
      "claude-haiku-5-5": 0.0075
     }
@@ -134,6 +134,12 @@
      "Neo4j Malm\u00f6 restaurant picker skill"
     ],
     [
+     13.09,
+     "2026-11-26",
+     "neo4j-cli",
+     "Compromised Google Password Manager passwords"
+    ],
+    [
      10.26,
      "2026-11-10",
      "home",
@@ -156,12 +162,6 @@
      "2026-11-20",
      "repos",
      "AI review eval pilot"
-    ],
-    [
-     8.74,
-     "2026-11-26",
-     "neo4j-cli",
-     "Compromised Google Password Manager passwords"
     ]
    ],
    "skills": {
@@ -238,7 +238,7 @@
    }
   }
  },
- "generated": "2026-11-26 18:35",
+ "generated": "2026-11-26 18:50",
  "jobs": [],
  "top_runs": []
 }
