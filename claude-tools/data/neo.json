@@ -94,7 +94,7 @@
      "claude-haiku-5-5": 0.067
     },
     "2026-11-26": {
-     "claude-sonnet-5-5": 88.9805,
+     "claude-sonnet-5-5": 90.4555,
      "claude-opus-5-5": 3.0101,
      "claude-haiku-5-5": 0.0075
     }
@@ -238,7 +238,7 @@
    }
   }
  },
- "generated": "2026-11-26 19:36",
+ "generated": "2026-11-26 19:51",
  "jobs": [],
  "top_runs": []
 }
