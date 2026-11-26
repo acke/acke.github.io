@@ -149,8 +149,8 @@
     },
     "2026-11-26": {
      "claude-sonnet-5-5": 2.4281,
-     "claude-haiku-5-5": 0.6701,
-     "claude-opus-5-5": 7.3682
+     "claude-haiku-5-5": 0.6851,
+     "claude-opus-5-5": 7.523
     }
    },
    "unpriced_tokens": {},
@@ -301,8 +301,8 @@
       0.0662
      ],
      "2026-11-26": [
-      3,
-      0.0586
+      4,
+      0.0597
      ]
     }
    }
@@ -310,7 +310,7 @@
   "billed": {},
   "notes": []
  },
- "generated": "2026-11-26 20:56",
+ "generated": "2026-11-26 21:11",
  "jobs": [
   {
    "label": "claude-blog-harvest",
@@ -405,7 +405,7 @@
    "cache_creation_30d": 2086304,
    "errors_7d": 0,
    "last_run_at": "2026-11-26 18:05:05",
-   "last_run_ago": "2h ago",
+   "last_run_ago": "3h ago",
    "last_run_exit": 0,
    "in_progress": false,
    "daily_cost": {
@@ -507,7 +507,7 @@
    "cache_creation_30d": 3604936,
    "errors_7d": 0,
    "last_run_at": "2026-11-26 18:00:01",
-   "last_run_ago": "2h ago",
+   "last_run_ago": "3h ago",
    "last_run_exit": 0,
    "in_progress": false,
    "daily_cost": {
@@ -546,7 +546,7 @@
    "cache_creation_30d": 0,
    "errors_7d": 0,
    "last_run_at": "2026-11-26 09:07:22",
-   "last_run_ago": "11h ago",
+   "last_run_ago": "12h ago",
    "last_run_exit": null,
    "in_progress": true,
    "daily_cost": {
@@ -598,25 +598,25 @@
    "tool_dir": "wow-loop",
    "schedule": "hourly at :00",
    "emits_usage": true,
-   "total_runs": 1136,
+   "total_runs": 1137,
    "runs_24h": 23,
-   "runs_7d": 159,
-   "runs_30d": 469,
-   "cost_7d": 5.30652351,
-   "cost_30d": 15.18148157,
-   "cost_all": 243.74529387,
-   "avg_cost_per_run": 0.21456451925176057,
-   "input_tokens_30d": 15364,
-   "output_tokens_30d": 4683685,
-   "cache_read_30d": 545601576,
-   "cache_creation_30d": 25974820,
+   "runs_7d": 160,
+   "runs_30d": 470,
+   "cost_7d": 5.3214873,
+   "cost_30d": 15.19644536,
+   "cost_all": 243.76025766,
+   "avg_cost_per_run": 0.2143889689182058,
+   "input_tokens_30d": 15378,
+   "output_tokens_30d": 4687668,
+   "cache_read_30d": 546160965,
+   "cache_creation_30d": 26011705,
    "errors_7d": 0,
-   "last_run_at": "2026-11-26 20:00:05",
-   "last_run_ago": "56m ago",
+   "last_run_at": "2026-11-26 21:00:04",
+   "last_run_ago": "11m ago",
    "last_run_exit": 0,
    "in_progress": false,
    "daily_cost": {
-    "2026-11-12": 0.08769689,
+    "2026-11-12": 0.056642950000000004,
     "2026-11-13": 0.6251511300000001,
     "2026-11-14": 0.65794191,
     "2026-11-15": 0.81040676,
@@ -630,7 +630,7 @@
     "2026-11-23": 0.6362714599999999,
     "2026-11-24": 0.65285573,
     "2026-11-25": 0.89893353,
-    "2026-11-26": 0.8873135499999999
+    "2026-11-26": 0.9022773399999999
    }
   },
   {
@@ -638,25 +638,25 @@
    "tool_dir": "wow-loop",
    "schedule": "hourly at :05",
    "emits_usage": true,
-   "total_runs": 1224,
+   "total_runs": 1225,
    "runs_24h": 24,
-   "runs_7d": 159,
-   "runs_30d": 547,
-   "cost_7d": 47.95064513,
-   "cost_30d": 127.42764153,
-   "cost_all": 238.03032763000002,
-   "avg_cost_per_run": 0.19446922191993465,
-   "input_tokens_30d": 4886,
-   "output_tokens_30d": 414662,
-   "cache_read_30d": 84942588,
-   "cache_creation_30d": 12802025,
+   "runs_7d": 160,
+   "runs_30d": 548,
+   "cost_7d": 48.10549053,
+   "cost_30d": 127.58248693,
+   "cost_all": 238.18517303000002,
+   "avg_cost_per_run": 0.19443687594285716,
+   "input_tokens_30d": 4894,
+   "output_tokens_30d": 415288,
+   "cache_read_30d": 85111215,
+   "cache_creation_30d": 12815596,
    "errors_7d": 1,
-   "last_run_at": "2026-11-26 20:05:00",
-   "last_run_ago": "51m ago",
+   "last_run_at": "2026-11-26 21:05:05",
+   "last_run_ago": "6m ago",
    "last_run_exit": 0,
    "in_progress": false,
    "daily_cost": {
-    "2026-11-12": 0.6286566,
+    "2026-11-12": 0.5611952,
     "2026-11-13": 6.277202600000001,
     "2026-11-14": 5.1735368,
     "2026-11-15": 5.0068938,
@@ -670,7 +670,7 @@
     "2026-11-23": 4.1792194,
     "2026-11-24": 5.438921799999999,
     "2026-11-25": 9.816822414999999,
-    "2026-11-26": 5.899035399999999
+    "2026-11-26": 6.053880799999999
    }
   }
  ],
