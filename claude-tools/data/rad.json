@@ -154,7 +154,7 @@
     },
     "2026-11-27": {
      "claude-sonnet-5-5": 3.0861,
-     "claude-haiku-5-5": 0.5903,
+     "claude-haiku-5-5": 0.6048,
      "claude-opus-5-5": 5.799
     }
    },
@@ -319,7 +319,7 @@
   "billed": {},
   "notes": []
  },
- "generated": "2026-11-27 19:47",
+ "generated": "2026-11-27 20:02",
  "jobs": [
   {
    "label": "claude-blog-harvest",
@@ -516,7 +516,7 @@
    "cache_creation_30d": 3812661,
    "errors_7d": 0,
    "last_run_at": "2026-11-27 18:00:05",
-   "last_run_ago": "1h ago",
+   "last_run_ago": "2h ago",
    "last_run_exit": 0,
    "in_progress": false,
    "daily_cost": {
@@ -555,7 +555,7 @@
    "cache_creation_30d": 0,
    "errors_7d": 0,
    "last_run_at": "2026-11-27 09:00:05",
-   "last_run_ago": "10h ago",
+   "last_run_ago": "11h ago",
    "last_run_exit": null,
    "in_progress": true,
    "daily_cost": {
@@ -607,23 +607,23 @@
    "tool_dir": "wow-loop",
    "schedule": "hourly at :00",
    "emits_usage": true,
-   "total_runs": 1159,
+   "total_runs": 1160,
    "runs_24h": 24,
-   "runs_7d": 167,
-   "runs_30d": 492,
+   "runs_7d": 168,
+   "runs_30d": 493,
    "cost_7d": 5.6846958700000005,
    "cost_30d": 16.27660819,
    "cost_all": 244.84042049,
-   "avg_cost_per_run": 0.21125144132010354,
+   "avg_cost_per_run": 0.2110693280086207,
    "input_tokens_30d": 16126,
    "output_tokens_30d": 4926058,
    "cache_read_30d": 576722188,
    "cache_creation_30d": 27125582,
    "errors_7d": 0,
-   "last_run_at": "2026-11-27 19:00:05",
-   "last_run_ago": "47m ago",
-   "last_run_exit": 0,
-   "in_progress": false,
+   "last_run_at": "2026-11-27 20:00:00",
+   "last_run_ago": "2m ago",
+   "last_run_exit": null,
+   "in_progress": true,
    "daily_cost": {
     "2026-11-13": 0.11129213000000002,
     "2026-11-14": 0.65794191,
@@ -661,7 +661,7 @@
    "cache_creation_30d": 13398022,
    "errors_7d": 0,
    "last_run_at": "2026-11-27 19:05:05",
-   "last_run_ago": "42m ago",
+   "last_run_ago": "57m ago",
    "last_run_exit": 0,
    "in_progress": false,
    "daily_cost": {
