@@ -319,7 +319,7 @@
   "billed": {},
   "notes": []
  },
- "generated": "2026-11-27 11:38",
+ "generated": "2026-11-27 11:53",
  "jobs": [
   {
    "label": "claude-blog-harvest",
@@ -624,7 +624,7 @@
    "cache_creation_30d": 26802864,
    "errors_7d": 0,
    "last_run_at": "2026-11-27 11:00:54",
-   "last_run_ago": "37m ago",
+   "last_run_ago": "52m ago",
    "last_run_exit": 0,
    "in_progress": false,
    "daily_cost": {
@@ -664,7 +664,7 @@
    "cache_creation_30d": 13292936,
    "errors_7d": 0,
    "last_run_at": "2026-11-27 11:05:03",
-   "last_run_ago": "33m ago",
+   "last_run_ago": "48m ago",
    "last_run_exit": 0,
    "in_progress": false,
    "daily_cost": {
