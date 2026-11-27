@@ -99,7 +99,7 @@
      "claude-haiku-5-5": 0.0075
     },
     "2026-11-27": {
-     "claude-sonnet-5-5": 13.573
+     "claude-sonnet-5-5": 13.6327
     }
    },
    "unpriced_tokens": {
@@ -241,7 +241,7 @@
    }
   }
  },
- "generated": "2026-11-27 16:55",
+ "generated": "2026-11-27 17:10",
  "jobs": [],
  "top_runs": []
 }
